@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.scroll-container {
+    width:100vw;
+    height: 700px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+    white-space: nowrap;
+ 
+}
+.scroll-content {
+    display: inline-block;
+    position: relative;
+    animation: scrollX 35s linear infinite;
+    animation-delay: 7s;
+    overflow-y: hidden;
+
+}
+@keyframes scrollX {
+    0% {
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateX(-25%);
+    }
+    20%{
+        transform: translateX(-25%);
+    }
+    35%{
+        transform: translateX(-50%);
+    }
+    45%{
+        transform: translateX(-50%);
+    }
+    60%{
+        transform: translateX(-75%);
+    }
+    75% {
+        transform: translateX(-75%);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+.offer{
+    display: inline-block;
+    width: 100vw;
+    height: 700px;
+    line-height: 100px;
+    text-align: center;
+    background: #f0f0f0;
+    border-right: 1px solid #ddd;
+    transition: 1s ease-in-out;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+.offer:hover{
+    height:650px;
+    transform: scale(1.05);
+}
+

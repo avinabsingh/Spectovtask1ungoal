@@ -1,0 +1,92 @@
+
+.speech{
+    height:200px;
+    background-color: #4CAF50;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.speech p{
+    color:white;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top:20px;
+    margin-top: 20px;
+}
+ 
+
+
+
+
+
+.disease{
+    display:flex;
+    margin-top:4rem;
+    margin-left:2rem;
+    justify-content: space-between;
+
+}
+
+.hr{
+    
+    opacity:0.75;
+    margin-top:2rem;
+}
+
+.dh{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:4px;
+    opacity:0.5;
+}
+
+
+.dh2{
+    margin-top: 20px;
+    margin-left:20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+
+.dbtn{
+    outline:0px;
+    border:0px;
+    margin:0px;
+    background-color: white;
+    font-family: "", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:2px;
+    width:200px;
+    background-color: rgb(41, 120, 112);
+    color:white;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    opacity:0.75;
+    margin-right: 10rem;;
+
+}
+
+
+
+
+
+.bi{
+    margin-left: 4px;
+
+}
+
+
+.dbtn:hover{
+    transform: scale(1.03);
+    opacity:1;
+    
+
+}

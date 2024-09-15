@@ -1,0 +1,20 @@
+.testimonials {
+    margin-top: 95px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    height:150px;
+    padding-top:20px;
+    margin-bottom:100px;
+}
+
+.testimonials p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.Story{
+    margin-bottom: 30px;
+}
